@@ -1,0 +1,4 @@
+local_pretrained_C16_res10/
+saved_models/
+MedicalNet/
+wandb/

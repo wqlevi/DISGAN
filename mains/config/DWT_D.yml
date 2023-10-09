@@ -1,0 +1,10 @@
+model_name: 'DWT_Unet_D'
+data_path: '/u/wangqi/LS_all/crops'
+batch_size: 4
+num_epochs: 20
+n_gpus: 2
+name_ckp: 'testing'
+G_type: 'Generator'
+D_type: 'dwt_UNet'
+FE_type: 'resnet10'
+
