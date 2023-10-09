@@ -2,17 +2,41 @@
 
 @ICCV2023
 
+- [Environment](#Environment)
+- [Super-resolution](#Super-resolution)
+- [Denoising](#denoising)
+- [Train](#train-from-scratch)
+- [Cite](#citation)
 ---
-Requirements:
+### Environment
+Essentially required packaged:
 * multiprocessing
 * torch2
 * pytorch-lightning
 
-## Train from scratch
-~~~python
+### Super-resolution
+
+<figure id="ours" class=subfigure style="display: inline-block; width=30%">
+<img src="./imgs/Ours.png" alt="DISGAN" width="200"/>
+<figcaption class=subcaption><strong>DISGAN(ours)</strong></figcaption>
+</figure>
+<figure id="gt" class=subfigure style="display: inline-block; width=30%">
+<img src="./imgs/GT.png" alt="GT" width="200"/>
+<figcaption class=subcaption>GT</figcaption>
+</figure>
+
+### Denoising
+<figure id="sim" class=subfigure style="display: inline-block; width=30%">
+<img src="./imgs/sim_noise_whole.png" alt="DISGAN" width="600"/>
+<figcaption class=subcaption><strong>Top:</strong>DISGAN(ours) for denoising; <strong>bottom:</strong>GT with noise</figcaption>
+</figure>
+
+### Train from scratch
+~~~bash
 python ln_DDP_train.py --model_name 'DWT_D'
 ~~~
 
+### Citation
 ~~~bibtex
 @misc{wang2023disgan,
       title={DISGAN: Wavelet-informed Discriminator Guides GAN to MRI Super-resolution with Noise Cleaning}, 
