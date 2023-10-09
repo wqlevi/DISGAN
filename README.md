@@ -16,12 +16,8 @@ Essentially required packaged:
 
 ### Super-resolution
 
-<figure id="ours" class=subfigure style="display: inline-block; width=30%">
-<img src="./imgs/Ours.png" alt="DISGAN" width="200"/>
-<figcaption class=subcaption, style="text-align: center"><strong>DISGAN(ours)</strong></figcaption>
-</figure>
-<figure id="gt" class=subfigure style="display: inline-block; width=30%">
-<img src="./imgs/GT.png" alt="GT" width="200"/>
+<figure id="sr" class=subfigure style="display: inline-block; width=50%">
+<img src="./imgs/SR.png" alt="GT" width="800"/>
 <figcaption class=subcaption, style="text-align: center">GT</figcaption>
 </figure>
 
