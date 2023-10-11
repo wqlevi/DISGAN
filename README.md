@@ -29,6 +29,10 @@ Essentially required packaged:
 </figure>
 
 ### Train from scratch
+
+1. Before training, change the directory path in the configuration files: `./mains/config/*.yml`
+2. Patch the 3D whole brain volumes to HR patches, by executing the script of `./mains/utils/crop_nifti.py`
+3. The LR patches will be simulated online while executing the trainig scirpt `./mains/ln_DDP_train.py` 
 ~~~bash
 python ln_DDP_train.py --model_name 'DWT_D'
 ~~~
