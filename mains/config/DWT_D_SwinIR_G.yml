@@ -1,5 +1,5 @@
 model_name: 'DWT_Unet_D_Swinir_G'
-data_path: '/big_data/qi1/ArSSR_Dataset/crops'
+data_path: '/your LR training patches dir/'
 batch_size: 1
 num_epochs: 20
 n_gpus: 4
