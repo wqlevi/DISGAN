@@ -1,5 +1,5 @@
 model_name: 'DWT_Unet_D'
-data_path: '/u/wangqi/LS_all/crops'
+data_path: '/your LR pacthes directory/'
 batch_size: 4
 num_epochs: 20
 n_gpus: 2
