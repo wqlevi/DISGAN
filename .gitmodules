@@ -1,0 +1,3 @@
+[submodule "torch-dwt"]
+	path = torch-dwt
+	url = https://github.com/KeKsBoTer/torch-dwt

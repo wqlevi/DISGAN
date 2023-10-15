@@ -10,6 +10,9 @@
 ---
 ### Environment
 Essentially required packaged:
+* torch-dwt:
+    1. `cd torch-dwt`
+    2. `python -m pip install -e .`
 * multiprocessing
 * torch2
 * pytorch-lightning
