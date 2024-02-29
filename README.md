@@ -42,12 +42,12 @@ python ln_DDP_train.py --model_name 'DWT_D'
 
 ### Citation
 ~~~bibtex
-@misc{wang2023disgan,
-      title={DISGAN: Wavelet-informed Discriminator Guides GAN to MRI Super-resolution with Noise Cleaning}, 
-      author={Qi Wang and Lucas Mahler and Julius Steiglechner and Florian Birk and Klaus Scheffler and Gabriele Lohmann},
-      year={2023},
-      eprint={2308.12084},
-      archivePrefix={arXiv},
-      primaryClass={eess.IV}
+@InProceedings{Wang_2023_ICCV,
+    author    = {Wang, Qi and Mahler, Lucas and Steiglechner, Julius and Birk, Florian and Scheffler, Klaus and Lohmann, Gabriele},
+    title     = {DISGAN: Wavelet-Informed Discriminator Guides GAN to MRI Super-Resolution with Noise Cleaning},
+    booktitle = {Proceedings of the IEEE/CVF International Conference on Computer Vision (ICCV) Workshops},
+    month     = {October},
+    year      = {2023},
+    pages     = {2452-2461}
 }
 ~~~
